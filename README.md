@@ -17,4 +17,7 @@ A mnemotechnic to remember the ordering of the elements in the resulting tuple i
 of stdout and stderr, they correspond to the standard streams numbers: 1 and 2 respectively.
 
 If I a missing your favorite (at least partially) POSIX-compliant shell, submit a pull request!
+<<<<<<< HEAD
 
+=======
+>>>>>>> 3bc8c81a70aa04652f710d9339227da07f2bd43e
