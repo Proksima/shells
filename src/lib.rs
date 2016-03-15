@@ -4,11 +4,16 @@
 //! ## Simple example
 //!
 //! ```rust
-//! let (code, stdout, stderr) = sh!("echo '{} + {}' | bc", 1, 3);
+//! #[macro_use]
+//! extern crate shells;
 //!
-//! assert_eq!(code, 0);
-//! assert_eq!(&stdout[..], "4");
-//! assert_eq!(&stderr[..], "");
+//! fn main() {
+//!     let (code, stdout, stderr) = sh!("echo '{} + {}' | bc", 1, 3);
+//!
+//!     assert_eq!(code, 0);
+//!     assert_eq!(&stdout[..], "4\n");
+//!     assert_eq!(&stderr[..], "");
+//! }
 //! ```
 //!
 //! A mnemotechnic to remember the ordering of the elements in the resulting tuple is the positions
