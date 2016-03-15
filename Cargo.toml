@@ -1,0 +1,11 @@
+[package]
+
+name          = "shells"
+version       = "0.1.0"
+authors       = ["Damien Levac <damien.levac@gmail.com>"]
+description   = "Sugar-coating for invoking shell commands directly from Rust."
+homepage      = "https://github.com/Proksima/shells"
+repository    = "https://github.com/Proksima/shells"
+readme        = "README.md"
+keywords      = ["posix", "shells", "unix", "command", "scripts"]
+license       = "MPL-2.0"
