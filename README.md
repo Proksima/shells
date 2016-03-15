@@ -3,6 +3,12 @@
 Wrapper around std::process::Command which make the use of Rust for shell scripting more
 appealing.
 
+[![](http://meritbadge.herokuapp.com/shells)](https://crates.io/crates/shells)
+
+### Documentation
+
+http://proksima.github.io/shells-doc/shells/index.html
+
 ### Simple example
 
 ```rust
