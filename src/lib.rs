@@ -8,10 +8,10 @@
 //! extern crate shells;
 //!
 //! fn main() {
-//!     let (code, stdout, stderr) = sh!("echo '{} + {}' | bc", 1, 3);
+//!     let (code, stdout, stderr) = sh!("echo '{} + {}' | cat", 1, 3);
 //!
 //!     assert_eq!(code, 0);
-//!     assert_eq!(&stdout[..], "4\n");
+//!     assert_eq!(&stdout[..], "1 + 3\n");
 //!     assert_eq!(&stderr[..], "");
 //! }
 //! ```
@@ -87,6 +87,6 @@ pub fn execute_with(shell: &str, cmd: &String) -> (i32, String, String) {
              String::from_utf8_lossy(&output.stderr[..]).into_owned())
         },
 
-        Err(e) => (126, String::new(), e.to_string()),
+        Err(e) => (127, String::new(), e.to_string()),
     }
 }
