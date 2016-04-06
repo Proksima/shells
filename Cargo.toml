@@ -1,7 +1,7 @@
 [package]
 
 name          = "shells"
-version       = "0.1.2"
+version       = "0.2.0"
 authors       = ["Damien Levac <damien.levac@gmail.com>"]
 description   = "Sugar-coating for invoking shell commands directly from Rust."
 documentation = "http://proksima.github.io/shells-doc/shells/index.html"
