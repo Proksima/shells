@@ -3,7 +3,9 @@
 Wrapper around std::process::Command which make the use of Rust for shell scripting more
 appealing.
 
+[![Travis Build Status](https://travis-ci.org/Proksima/shells.svg?branch=master)](https://travis-ci.org/Proksima/shells)
 [![](http://meritbadge.herokuapp.com/shells)](https://crates.io/crates/shells)
+[![License: MPL 2.0](https://img.shields.io/badge/License-MPL%202.0-brightgreen.svg)](https://opensource.org/licenses/MPL-2.0)
 
 ### Documentation
 

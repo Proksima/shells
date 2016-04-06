@@ -10,3 +10,4 @@ repository    = "https://github.com/Proksima/shells"
 readme        = "README.md"
 keywords      = ["posix", "shells", "unix", "command", "scripts"]
 license       = "MPL-2.0"
+
